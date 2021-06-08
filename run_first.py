@@ -8,7 +8,7 @@ def InstallModule(package):
     except subprocess.CalledProcessError as e:
         raise RuntimeError("command '{}' return with error (code {}): {}".format(e.cmd, e.returncode, e.output))
 
-print("Installing colorama & Requests")
+print("Installing Colorama & Requests")
 
 InstallModule("colorama")
 InstallModule("requests")
