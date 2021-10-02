@@ -17,7 +17,7 @@ except:
     sys.exit()
 
 lock = threading.Lock()
-print(f"Cookie Checker | DEVELOPED BY Alekdevs#4540")
+print(f"Cookie Checker | DEVELOPED BY Alek#2022")
 
 
 
